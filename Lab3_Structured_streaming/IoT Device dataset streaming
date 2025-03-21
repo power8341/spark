@@ -1,0 +1,10 @@
+Report on IoT Device Dataset Streaming
+The IoT dataset is read from /databricks-datasets/iot-stream/. 
+The schema was referenced from the README file, and an initial static read was performed to understand its structure. 
+The dataset contains IoT device activity logs, which likely include attributes such as user_id, device_id, timestamp, and activity metrics.
+The dataset could be grouped by user_id and aggregated to count total steps.
+If calorie data is present, it can be summed per user over a time window.
+Streaming data allows analyzing activity trends across timestamps.
+
+
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2782984913639353/4309040148244032/4503265349255470/latest.html
